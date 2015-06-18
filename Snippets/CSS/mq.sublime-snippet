@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[@media only screen and (max-width: 600px) {
+    ${1}
+}]]></content>
+    <tabTrigger>mq</tabTrigger>
+    <scope>source.css, source.css.embedded.html</scope>
+</snippet>

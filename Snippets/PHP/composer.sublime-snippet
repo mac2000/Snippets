@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[{
+    "autoload": {
+        "psr-4": {
+            "${1:Acme}\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "${1:Acme}\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "twig/twig": "x"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "x"
+    }
+}
+]]></content>
+    <tabTrigger>composer</tabTrigger>
+</snippet>
