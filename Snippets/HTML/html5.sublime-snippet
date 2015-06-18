@@ -2,16 +2,16 @@
     <content><![CDATA[<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
     <title>${1:Document}</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.css" />
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container">
         $2
     </div>
-    <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/latest/js/bootstrap.js"></script>
     <script>
         jQuery(document).ready(function(\$){
