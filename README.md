@@ -11,21 +11,40 @@ Sublime Settings
 ----------------
 
     {
-        "font_size": 14,
         "default_line_ending": "unix",
         "ensure_newline_at_eof_on_save": true,
         "highlight_line": true,
-        "highlight_modified_tabs": true,
         "ignored_packages": ["Vintage"],
-        "rulers": [120],
         "word_wrap": false,
         "show_encoding": true,
         "show_line_endings": true,
-        "translate_tabs_to_spaces": true,
         "trim_automatic_white_space": true,
         "fallback_encoding": "Cyrillic (Windows 1251)",
         "default_line_ending": "unix",
         "trim_trailing_white_space_on_save": true
     }
 
+Keybindings
+-----------
 
+    [
+        { "keys": ["ctrl+,"], "command": "expand_selection", "args": {"to": "scope"}, "context": [{"key": "selector", "operator": "not_equal", "operand": "text.html.basic"}] }
+    ]
+
+
+Remapped selection expand to be `ctrl+,` like in [Emmet](https://packagecontrol.io/packages/Emmet)
+
+Plugins
+-------
+
+* [Emmet](https://packagecontrol.io/packages/Emmet)
+* [Smart Delete](https://packagecontrol.io/packages/Smart%20Delete)
+
+Usefull shortcuts
+-----------------
+
+`ctrl+shift+'` - rename tag
+
+`ctrl+,` - expand selection (by Emmet only in HTML scope)
+
+`ctrl+shift+space` - expand selection to scope
