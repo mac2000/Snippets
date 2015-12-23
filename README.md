@@ -20,7 +20,6 @@ Sublime Settings
         "show_line_endings": true,
         "trim_automatic_white_space": true,
         "fallback_encoding": "Cyrillic (Windows 1251)",
-        "default_line_ending": "unix",
         "trim_trailing_white_space_on_save": true
     }
 
