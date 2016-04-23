@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[self.${1:property} = ko.observable(${2});]]></content>
+    <tabTrigger>obs</tabTrigger>
+    <scope>source.js, source.js.embedded.html</scope>
+</snippet>

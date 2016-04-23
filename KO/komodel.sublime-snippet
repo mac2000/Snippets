@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[function ${1:Model}() {
+    var self = this;
+
+    ${2}
+}]]></content>
+    <tabTrigger>komodel</tabTrigger>
+    <scope>source.js, source.js.embedded.html</scope>
+</snippet>
